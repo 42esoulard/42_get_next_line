@@ -15,4 +15,5 @@ __int get_next_line(int fd, char **line);__
 
 -> Compile with gcc -Wall -Wextra -Werror -D BUFFER_SIZE=32 get_next_line*.c (or whatever BUFFER_SIZE you prefer. Go nuts!)
 
+Written in november 2019.
 
