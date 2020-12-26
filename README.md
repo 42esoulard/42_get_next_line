@@ -1,14 +1,12 @@
 # 42_get_next_line
 
-<b>int get_next_line(int fd, char **line);<\b>
+***int get_next_line(int fd, char **line);***
 
-<b>Parameters<\b>
-  
+**Parameters**
 #1. file descriptor for reading
 #2. The value of what has been read
 
-<b>Return value <\b>
-  
+**Return value**
 1 : A line has been read
 0 : EOF has been reached
 -1 : An error happened
