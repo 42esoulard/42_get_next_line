@@ -1,6 +1,6 @@
 # 42_get_next_line
 
-**int get_next_line(int fd, char **line);**
+__int get_next_line(int fd, char **line);__
 
 **Parameters**
 #1. file descriptor for reading
