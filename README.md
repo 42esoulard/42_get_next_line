@@ -5,13 +5,14 @@ Bonus : succeed get_next_line with a single static variable, and be able to mana
 __int get_next_line(int fd, char **line);__
 
 **Parameters**
-#1. file descriptor for reading
-#2. The value of what has been read
+  - 1. file descriptor for reading
+  - 2. The value of what has been read
 
 **Return value**
-1 : A line has been read
-0 : EOF has been reached
--1 : An error happened
+  - 1 : A line has been read
+  - 0 : EOF has been reached
+  - -1 : An error happened
+
 
 -> Compile with gcc -Wall -Wextra -Werror -D BUFFER_SIZE=32 get_next_line*.c (or whatever BUFFER_SIZE you prefer. Go nuts!)
 
