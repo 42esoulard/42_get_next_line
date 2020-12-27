@@ -5,8 +5,8 @@ Bonus : succeed get_next_line with a single static variable, and be able to mana
 __int get_next_line(int fd, char **line);__
 
 **Parameters**
-  - 1. file descriptor for reading
-  - 2. The value of what has been read
+  - fd = file descriptor to read from
+  - line = a string pointer to write in
 
 **Return value**
   - 1 : A line has been read
